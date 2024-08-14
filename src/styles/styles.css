@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+    color: #e5ff00;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+/* Terminal container */
+#terminal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Terminal output section */
+#terminal-output {
+    flex-grow: 1;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    padding-right: 10px; /* space for scrollbar */
+}
+
+/* Terminal input section */
+#terminal-input-line {
+    display: flex;
+    align-items: center;
+}
+
+/* Terminal prompt */
+#terminal-prompt {
+    margin-right: 5px;
+}
+
+/* Terminal input field */
+#terminal-input {
+    background: none;
+    border: none;
+    color: #969696;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    width: 100%;
+}
+
+/* Custom scrollbar (optional) */
+#terminal-output::-webkit-scrollbar {
+    width: 10px;
+}
+
+#terminal-output::-webkit-scrollbar-thumb {
+    background-color: #e9ff25;
+}
+
+#terminal-output::-webkit-scrollbar-track {
+    background-color: #222;
+}
