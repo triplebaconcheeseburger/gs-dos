@@ -19,7 +19,7 @@ Follow these steps to set up the project locally:
 
 1.  Clone the Repository:
   ```
-  bash git clone <repository-url>
+  git clone https://github.com/triplebaconcheeseburger/gs-dos.git
   ```
 
 2. Navigate to the Project Directory:
