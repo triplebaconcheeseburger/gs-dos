@@ -106,6 +106,3 @@ document.querySelector('#terminal-input').addEventListener('keydown', function(e
 
 // Initialize the prompt with the default directory
 updatePrompt('~');
-
-
-// Adding a note to say what up!
