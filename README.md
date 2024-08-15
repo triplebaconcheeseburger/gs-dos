@@ -55,8 +55,8 @@ The application will open, and you can start interacting with the terminal inter
 Here are some of the commands you can run in the terminal interface:
 
 * `ls`: Lists the contents of the current directory.
-* `cd` <directory>: Changes the current directory to the specified directory.
-* `cd` ..: Moves up one level in the directory structure.
+* `cd <directory>`: Changes the current directory to the specified directory.
+* `cd ..`: Moves up one level in the directory structure.
 * `help`: Displays the help text and lists available commands.
 
 
