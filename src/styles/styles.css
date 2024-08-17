@@ -48,6 +48,54 @@ body, html {
     width: 100%;
 }
 
+/* Default styles (for larger screens) */
+body {
+    font-size: 16px;
+    /* Other default styles */
+}
+
+/* Tablet (portrait and landscape) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+        /* Adjustments for tablet */
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        /* Other tablet-specific styles */
+    }
+}
+
+/* Mobile (landscape) */
+@media (max-width: 768px) {
+    body {
+        font-size: 13px;
+        /* Adjustments for landscape mode on mobile */
+    }
+
+    .container {
+        width: 95%;
+        /* Other mobile landscape-specific styles */
+    }
+}
+
+/* Mobile (portrait) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        /* Adjustments for portrait mode on mobile */
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        /* Other mobile portrait-specific styles */
+    }
+
+}
+
 /* Custom scrollbar (optional) */
 #terminal-output::-webkit-scrollbar {
     width: 10px;
